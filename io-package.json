@@ -1,7 +1,7 @@
 {
     "common": {
         "name":                     "hyperion",
-        "version":                  "0.0.9",
+        "version":                  "0.0.11",
         "title":                    "hyperion",
         "titleLang":                "hyperion",
         "desc":                     {
@@ -19,6 +19,7 @@
         "mode":                     "daemon",
         "icon":                     "hyperion.png",
         "extIcon":                  "https://github.com/ruhigundrelaxed/ioBroker.hyperion/raw/master/admin/hyperion.png",
+        "readme":                   "https://github.com/ruhigundrelaxed/ioBroker.hyperion/blob/master/README.md",
         "loglevel":                 "info",
         "nondeletable":             true,
         "type": "lighting",
