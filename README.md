@@ -15,8 +15,10 @@ Control and configure Hyperion Lights.
 1st.)   Install Hyperion and configure it. Test if all runs correctly. <br>
 2nd.)   Install this Adapter on iobroker, and configure ip and port of hyperion json interface.<br>
 
-
 ## Changelog
+### 0.0.11 (2018-08-02)
+* (Matten-Matten) Bugfix in setting mask.
+
 ### 0.0.10 (2018-17-01)
 Again massive clean up. Cleared some warnings regarding missing attributes, implemented error handling, 
 added connection monitoring... 
