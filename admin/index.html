@@ -29,9 +29,9 @@
 
     // Dictionary (systemDictionary is global variable from adapter-settings.js)
     systemDictionary = {
-        "Hyperion adapter settings": {"de": "Hyperion Adapter Einstellungen!", "ru": "???"},
-        "address":                    {"en": "Hyperion IP address!", "de": "Hyperion IP address!", "ru": "???"},
-        "json_port":                    {"en": "Hyperion json port!", "de": "Hyperion json port!", "ru": "???"},
+        "Hyperion adapter settings":    {"en": "Hyperion adapter settings", "de": "Hyperion Adapter Einstellungen!", "ru": "???"},
+        "address":                      {"en": "Hyperion IP address!", "de": "Hyperion IP Adresse", "ru": "???"},
+        "json_port":                    {"en": "Hyperion json port!", "de": "Hyperion json Port", "ru": "???"},
         "on save adapter restarts with new config immediately": {
             "de": "Beim Speichern von Einstellungen der Adapter wird sofort neu gestartet.!",
             "ru": "Сразу после сохранения настроек драйвер перезапуститься с новыми значениями"
@@ -71,13 +71,21 @@
 <div id="adapter-container">
 
     <table><tr>
-        <td><img src="Hyperion.png"/></td>
+        <td><img src="hyperion.png"/></td>
         <td><h3 class="translate">Hyperion adapter settings</h3></td>
     </tr></table>
-    <p>
-        <span class="translate">address</span> <input class="value" id="address"/><br>
-        <span class="translate">json_port</span> <input class="value" id="json_port"/><br>
-    </p>
+	<table>
+	    <tr>
+           <td><label class="translate" for="address">address</label></td>
+           <td><input type="text" id="address" class="value"/></td>
+           </select></td>
+        </tr>
+	    <tr>
+           <td><label class="translate" for="json_port">json_port</label></td>
+           <td><input type="text" id="json_port" class="value"/></td>
+           </select></td>
+        </tr>
+	</table>
 
     <p class="translate">on save adapter restarts with new config immediately</p>
 
